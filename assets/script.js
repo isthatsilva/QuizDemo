@@ -81,7 +81,7 @@ function compare(event) {
     var selectedAnswer = event.target;
     if (selectedAnswer.matches("li")) {
         if (selectedAnswer.textContent === questions[currentQuestion].answer) {
-            score = score + 50;
+            score = score + 10;
             currentQuestion++
         } else {
             timeLeft = timeLeft - penalty;

@@ -1,4 +1,4 @@
-# JavaScript Fundamentals Quiz!
+# Quiz Demo!
 
 * AS A coding boot camp student
 * I WANT to take a timed quiz that stores high scores
