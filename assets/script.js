@@ -1,5 +1,5 @@
 var timerEl = document.getElementById("timer");
-var timeLeft = 15;
+var timeLeft = 50;
 var penalty = 5;
 var timerID;
 var titleEl = document.getElementById("title");
@@ -35,14 +35,19 @@ function timeSecond() {
 
 var questions = [
     {
-        question: "What is the abbreviation for JavaScript?",
-        choices: ["JavaS", "JVS", "JS", "JScript"],
-        answer: "JS"
+        question: "Which one is most likely to catch you cheating first?",
+        choices: ["Your partner", "Your diet", "Your phone's screen time report", "Your professor using Turnitin"],
+        answer: "Your professor using Turnitin"
     },
     {
-        question: "What is JavaScript used for?",
-        choices: ["To add styling", "To create content", "To add logic"],
-        answer: "To add logic"
+        question: "Why do group projects exist?",
+        choices: ["To build teamwork", "To test patience", "To let one person do everything", "To create villains"],
+        answer: "To let one person do everything"
+    },
+    {
+        question: "True or False: You used A.I. for this class",
+        choices: ["True. I just don't understand sometimes--or at all", "False. I pay attention in class"],
+        answer: "False. I pay attention in class"
     },
 ];
 
@@ -80,7 +85,11 @@ function compare(event) {
             currentQuestion++
         } else {
             timeLeft = timeLeft - penalty;
-            currentQuestion++
+            
+            if (timeLeft < 0) {
+                timeLeft = 0;
+            }
+            alert("Wrong answer!");
         }
     }
     if (currentQuestion >= questions.length ) {
