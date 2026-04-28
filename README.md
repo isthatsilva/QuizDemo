@@ -1,12 +1,12 @@
 # JavaScript Fundamentals Quiz!
 
 * AS A coding boot camp student
-* I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+* I WANT to take a timed quiz that stores high scores
 * SO THAT I can gauge my progress compared to my peers
 
 ## Acceptance Criteria
 
-* GIVEN I am taking a code quiz
+* GIVEN I am taking a quiz
 * WHEN I click the start button
 * THEN a timer starts and I am presented with a question
 * WHEN I answer a question
@@ -22,4 +22,4 @@
 
 The following image shows the web application's appearance and functionality:
 
-![Code Quiz Challenge title displays with a text of information about the challenge along with a start quiz button and a timer of 15 seconds in the top right corner.](assets/image/quizDemo.png)
+![Quiz Demo title displays with a text of information about the challenge along with a start quiz button and a timer of 15 seconds in the top right corner.](assets/image/quizDemo.png)
