@@ -22,4 +22,4 @@
 
 The following image shows the web application's appearance and functionality:
 
-![Quiz Demo](https://raw.githubusercontent.com/isthatsilva/QuizDemo/main/assets/image/quizDemo.png)
+![Quiz Demo](/Users/davidsilva/bootcamp/QuizDemo/assets/image/quizDemo.png)
