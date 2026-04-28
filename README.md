@@ -22,4 +22,6 @@
 
 The following image shows the web application's appearance and functionality:
 
-![Quiz Demo title displays with a text of information about the challenge along with a start quiz button and a timer of 15 seconds in the top right corner.](assets/image/quizDemo.png)
+![Quiz Demo Mockup][def]
+
+[def]: assets/image/quizDemo.png
