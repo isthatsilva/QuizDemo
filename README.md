@@ -22,6 +22,4 @@
 
 The following image shows the web application's appearance and functionality:
 
-![Quiz Demo Mockup][def]
-
-[def]: assets/image/quizDemo.png
+![Quiz Demo](https://raw.githubusercontent.com/isthatsilva/QuizDemo/main/assets/image/quizDemo.png)
